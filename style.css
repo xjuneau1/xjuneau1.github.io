@@ -13,7 +13,7 @@ a {
     color: white;
 }
 .main-container {
-    background-image: url(images/background_blur.jpg);
+    background-image: url(/images/background_blur.jpg);
     background-attachment: fixed;
 }
 /* Main Header style */
