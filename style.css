@@ -14,8 +14,14 @@ a {
 }
 .main-container {
     background-image: url(/images/background_blur.jpg);
+    background-size: cover;
     background-attachment: fixed;
 }
+@media (max-width:640px) {
+    main {
+      background-attachment:initial;
+    }
+  }
 /* Main Header style */
 .main-header {
     display: flex;
