@@ -13,7 +13,7 @@ const color = document.querySelector('.color')
 
 const navBtn = document.getElementById("nav-btn")
 const input = document.getElementById("input")
-let inputValue = ''
+
 
 const open = document.getElementById("open")
 const list = document.getElementById("list-container")
@@ -53,10 +53,10 @@ function getRandomColor(){
 //Takes input from the user and sets the text of 'Background Color : ' and 
 //changes the color of the background 
 navBtn.addEventListener("click", function(){
-    inputValue = input.value.replace(/\s+/g, '')
+    const inputValue = input.value.replace(/\s+/g, '')
+    color.textContent = input.value
     input.value = ''
     document.body.style.backgroundColor = inputValue
-    color.textContent = inputValue
 })
 
 //Controls the opening and closing of the colors and hex codes list
