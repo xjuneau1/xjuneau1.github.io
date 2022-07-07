@@ -19,7 +19,7 @@ a {
     color: white;
 }
 .main-container {
-    background-image: url(/images/background_blur.jpg);
+    background-image: url('images/background_blur.jpg');
     background-size: cover;
     background-attachment: fixed;
 }

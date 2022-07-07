@@ -53,7 +53,22 @@ button:active {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
 }
 
-.deleteBtn {
+.secondary-btn {
     background-color: white;
     color: #343434;
+}
+
+.new-links{
+    opacity:0
+}
+
+.new-links.show {
+    opacity: 1;
+}
+.list-container {
+    opacity: 0;
+}
+.list-container.show {
+    pointer-events: auto;
+    opacity: 1;
 }
