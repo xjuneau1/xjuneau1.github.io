@@ -56,6 +56,7 @@ export default class Ball {
     }
   }
 }
+
 function randomNumberBetween(min, max) {
   return Math.random() * (max - min) + min;
 }
