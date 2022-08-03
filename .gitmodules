@@ -1,0 +1,3 @@
+[submodule "thinkfulbnb"]
+	path = thinkfulbnb
+	url = https://github.com/xjuneau1/starter-thinkfulbnb
